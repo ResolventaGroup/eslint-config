@@ -1,0 +1,29 @@
+{
+  "name": "@resolventagroup/eslint-config",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ResolventaGroup/eslint-config.git"
+  },
+  "author": "Sergey Voronov",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/ResolventaGroup/eslint-config/issues"
+  },
+  "homepage": "https://github.com/ResolventaGroup/eslint-config#readme",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^4.25.0",
+    "eslint-config-airbnb-typescript": "^12.3.1",
+    "eslint-plugin-import": "^2.23.4",
+    "eslint-plugin-jsx-a11y": "^6.4.1",
+    "eslint-plugin-promise": "^5.1.0",
+    "eslint-plugin-react": "^7.24.0",
+    "eslint-plugin-react-hooks": "^4.2.0",
+    "eslint-plugin-sonarjs": "^0.7.0"
+  }
+}
