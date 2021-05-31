@@ -1,0 +1,19 @@
+{
+  "name": "@resolventagroup/eslint-config",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ResolventaGroup/eslint-config.git"
+  },
+  "author": "Sergey Voronov",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/ResolventaGroup/eslint-config/issues"
+  },
+  "homepage": "https://github.com/ResolventaGroup/eslint-config#readme"
+}
