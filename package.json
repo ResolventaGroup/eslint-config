@@ -16,7 +16,7 @@
     "url": "https://github.com/ResolventaGroup/eslint-config/issues"
   },
   "homepage": "https://github.com/ResolventaGroup/eslint-config#readme",
-  "devDependencies": {
+  "peerDependencies": {
     "@typescript-eslint/eslint-plugin": "^4.25.0",
     "eslint-config-airbnb-typescript": "^12.3.1",
     "eslint-plugin-import": "^2.23.4",
