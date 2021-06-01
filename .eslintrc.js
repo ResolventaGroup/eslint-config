@@ -82,5 +82,22 @@ module.exports = {
                 'format': null,
             },
         ],
+
+        '@typescript-eslint/consistent-indexed-object-style': ['error', 'record'],
+
+        '@typescript-eslint/explicit-member-accessibility': ['error'],
+        '@typescript-eslint/member-ordering': ['error'],
+
+        '@typescript-eslint/explicit-module-boundary-types': [0],
+
+        '@typescript-eslint/method-signature-style': ['error', 'method'],
+
+        '@typescript-eslint/member-delimiter-style': ['error'],
+
+        '@typescript-eslint/array-type': ['error', { default: 'array-simple' }],
+
+        '@typescript-eslint/class-literal-property-style': ['error', 'fields'],
+
+        '@typescript-eslint/type-annotation-spacing': ['error'],
     },
 };
