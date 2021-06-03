@@ -100,5 +100,10 @@ module.exports = {
         '@typescript-eslint/class-literal-property-style': ['error', 'fields'],
 
         '@typescript-eslint/type-annotation-spacing': ['error'],
+
+        'require-await': 'error',
+
+        'promise/prefer-await-to-then': 'error',
+        'promise/prefer-await-to-callbacks': 'error',
     },
 };
