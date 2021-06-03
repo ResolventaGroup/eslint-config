@@ -38,12 +38,8 @@ module.exports = {
 
         'import/order': ['error', {
             'newlines-between': 'always',
-            'groups': ['builtin', 'external', 'index', 'sibling'],
+            'groups': ['builtin', 'external', 'internal', 'index', 'sibling'],
             'pathGroups': [
-                {
-                    'pattern': 'components',
-                    'group': 'external',
-                },
                 {
                     'pattern': './*.module.scss',
                     'group': 'sibling',
@@ -105,5 +101,13 @@ module.exports = {
 
         'promise/prefer-await-to-then': 'error',
         'promise/prefer-await-to-callbacks': 'error',
+    },
+
+    settings: {
+        'import/resolver': {
+            typescript: {
+                project: '.',
+            },
+        },
     },
 };
