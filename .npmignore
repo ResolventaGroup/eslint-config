@@ -1,4 +1,5 @@
 *
 !/index.js
 !/next.js
+!/storybook.js
 !/.eslintrc.js
