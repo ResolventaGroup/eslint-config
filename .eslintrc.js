@@ -7,6 +7,7 @@ const a11yOff = Object.keys(require('eslint-plugin-jsx-a11y').rules).reduce((acc
 module.exports = {
     extends: [
         'airbnb-typescript',
+        'airbnb/hooks',
         'plugin:@typescript-eslint/recommended',
         'plugin:promise/recommended',
         'plugin:sonarjs/recommended',
@@ -99,5 +100,10 @@ module.exports = {
         '@typescript-eslint/class-literal-property-style': ['error', 'fields'],
 
         '@typescript-eslint/type-annotation-spacing': ['error'],
+
+        'require-await': 'error',
+
+        'promise/prefer-await-to-then': 'error',
+        'promise/prefer-await-to-callbacks': 'error',
     },
 };
