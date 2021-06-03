@@ -6,6 +6,12 @@
 module.exports = {
     extends: [
         '@resolventa',
+
+        // If you're using Next.js
+        '@resolventa/eslint-config/next',
+
+        // If you're using storybook
+        '@resolventa/eslint-config/storybook',
     ],
     parserOptions: {
         project: './tsconfig.json',
