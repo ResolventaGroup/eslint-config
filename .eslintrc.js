@@ -87,7 +87,7 @@ module.exports = {
 
         '@typescript-eslint/explicit-module-boundary-types': [0],
 
-        '@typescript-eslint/method-signature-style': ['error', 'method'],
+        '@typescript-eslint/method-signature-style': ['error'],
 
         '@typescript-eslint/member-delimiter-style': ['error'],
 
