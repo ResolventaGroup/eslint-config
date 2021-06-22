@@ -42,12 +42,12 @@ module.exports = {
             'pathGroups': [
                 {
                     'pattern': './*.module.scss',
-                    'group': 'sibling',
+                    'group': 'index',
                     'position': 'after',
                 },
                 {
                     'pattern': './*.scss',
-                    'group': 'sibling',
+                    'group': 'index',
                     'position': 'after',
                 },
             ]
