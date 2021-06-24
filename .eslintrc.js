@@ -101,6 +101,43 @@ module.exports = {
 
         'promise/prefer-await-to-then': 'error',
         'promise/prefer-await-to-callbacks': 'error',
+
+        '@typescript-eslint/naming-convention': [
+            'error',
+            {
+                'selector': 'default',
+                'format': ['strictCamelCase', 'StrictPascalCase', 'UPPER_CASE'],
+            },
+            {
+                'selector': 'memberLike',
+                'modifiers': ['private'],
+                'format': ['strictCamelCase'],
+                'leadingUnderscore': 'allow',
+            },
+            {
+                'selector': 'variable',
+                'modifiers': ['destructured'],
+                'format': null,
+            },
+            {
+                'selector': ['objectLiteralProperty', 'typeProperty'],
+                'format': null,
+            },
+            {
+                'selector': 'typeAlias',
+                'prefix': ['T'],
+                'format': ['StrictPascalCase'],
+            },
+            {
+                'selector': 'interface',
+                'prefix': ['I'],
+                'format': ['StrictPascalCase'],
+            },
+            {
+                'selector': 'typeLike',
+                'format': ['StrictPascalCase'],
+            },
+        ],
     },
 
     settings: {
