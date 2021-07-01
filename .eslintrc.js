@@ -16,6 +16,9 @@ module.exports = {
     rules: {
         ...a11yOff,
 
+        'curly': [2, 'all'],
+        'brace-style': [2, '1tbs', { 'allowSingleLine': false }],
+
         'react/react-in-jsx-scope': 'off',
 
         'react/jsx-max-props-per-line': [
